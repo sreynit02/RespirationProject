@@ -4,10 +4,10 @@
 This project aims to train people to take deep breaths by utilizing visualization as feedback. 
 
 ## How it works?
-**Unity Application** - Initialised as WebSocket Server. Receive real-time data from connected clients and generate visualizations. 
+**Unity Application** - Initialised as WebSocket Server. Receives real-time data from connected clients and generates visualizations. 
 
-**Python Script** - Initialised as WebSocket Client. Used the GDX module to read data from the GoDirect Respiration Sensor. 
-Send data read from the sensor to the WebSocket server.
+**Python Script** - Initialised as WebSocket Client. Uses the GDX module to read data from the GoDirect Respiration Sensor. 
+Sends data read from the sensor to the WebSocket server.
 
 ## Device needed: 
 **HeadMounted Display** - Meta Quest 3
