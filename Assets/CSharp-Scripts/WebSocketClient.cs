@@ -19,7 +19,7 @@
 //    async void Start()
 //    {
 //        Debug.Log("Starting WebSocket client initialization...");
-//        //websocket = new WebSocket("ws://10.74.246.62:8000"); //change to the IP address of the device that's runnning the server
+//        //websocket = new WebSocket("ws://localhost:8000"); //change to the IP address of the device that's runnning the server
 //        websocket = new WebSocket("ws://localhost:8000");
 
 //        websocket.OnOpen += () => Debug.Log("Connection open!");
